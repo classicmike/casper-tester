@@ -1,4 +1,4 @@
 language: node_js
 script:
-    - capserjs test test.js
+    - PATH=$(npm bin):$PATH capserjs test test.js
 install: npm install
