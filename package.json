@@ -1,0 +1,26 @@
+{
+  "name": "casper-tester",
+  "version": "1.0.0",
+  "description": "CasperJs Sample Testing with Travis CI",
+  "main": "test.js",
+  "scripts": {
+    "test": "casperjs test test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/classicmike/casper-tester.git"
+  },
+  "keywords": [
+    "casperjs",
+    "travisci"
+  ],
+  "author": "Michael Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classicmike/casper-tester/issues"
+  },
+  "homepage": "https://github.com/classicmike/casper-tester",
+  "dependencies": {
+    "casperjs": "^1.1.0-beta3"
+  }
+}
